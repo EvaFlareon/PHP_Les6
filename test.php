@@ -26,7 +26,7 @@ $user_answer[5] = $_POST['5'];
 for ($i = 1; $i < 6; $i ++) {
 	if ($user_answer[$i] === $result[$i]['answer']) {
 		$t += 1;
-	} else if ($_POST['$i'] === '') {
+	} else if ($_POST['$i'] == False) {
 		$t += 0;
 		$f += 0;
 	} else {
