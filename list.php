@@ -2,7 +2,7 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<title>Загрузка тестов</title>
+		<title>Список тестов</title>
 	</head>
 	<body>
 		<h1>Список доступных тестов:</h1>
