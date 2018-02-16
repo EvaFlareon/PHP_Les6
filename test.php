@@ -17,16 +17,11 @@ $user_answer = [];
 $t = 0;
 $f = 0;
 
-$user_answer[1] = $_POST['1'];
-$user_answer[2] = $_POST['2'];
-$user_answer[3] = $_POST['3'];
-$user_answer[4] = $_POST['4'];
-$user_answer[5] = $_POST['5'];
-
 for ($i = 1; $i < 6; $i ++) {
+	$user_answer[$i] = $_POST["$i"];
 	if ($user_answer[$i] === $result[$i]['answer']) {
 		$t += 1;
-	} else if ($_POST['$i'] == False) {
+	} else if ($_POST["$i"] == False) {
 		$t += 0;
 		$f += 0;
 	} else {
